@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: rgb(223, 112, 48); 
+}
+.container {
+    background: white;
+    background-image: url(images.jpeg);
+    width: 46%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(218, 96, 229)
+}
+h2{
+    color: rgb(70, 59, 11);
+}
+hr {
+    border: none;
+    height: 2px;
+    background: rgb(255, 125, 89);
+    margin: 10px 0 20px 0;
+}
+p {
+    line-height: 2;
+    color: black;
+}
+.quote {
+    border: 1px solid rgb(0, 0, 0);
+    background: rgba(253, 135, 0, 0.742);
+    border-left: 5px solid rgb(14, 3, 3);
+    padding: 15px;
+    margin: 25px 0;
+    font-style: italic;
+    color: rgba(255, 0, 0, 0.516);
+    border-radius: 5px;
+}
+.author-box {
+    display: flex;
+    background: rgb(255, 51, 0);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 94, 134);
+    margin-top: 25px;
+    gap: 15px;
+}
+.author-box img {
+    border-radius: 8px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid rgb(96, 42, 13);
+}
+.author-box h3 {
+    margin: 0 0 5px 0;
+    color: rgb(96, 39, 8);
+}
+.footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(106, 50, 4);
+    color: rgb(255, 173, 101);
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
